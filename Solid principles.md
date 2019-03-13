@@ -36,4 +36,22 @@ Program has the ability to replace any instance (object) of a parent class
 with an instnace of one of its's child classes without negative side effects.
 
 
+### Interface Segregation Principal
 
+* Classes may have interfaces that are not cohesive
+* Clients sould not be forced o depend upon interfaces they do not use
+* ISP recommends multiple, smaller, cohesive interfaces
+* Interfaces become tightly focused
+* Easier to implement
+
+Smaller interfaces are easier to implement, improve flexibility and reusability.
+
+
+### Dependency Inversion Principal
+
+* High level modules should not depend on low level modules.
+Both should depend on abstractions.
+* Clients should not be forced to depend upon interfaces they do not use
+* DIP removes direct dependencies between classes
+* Classes become loosely coupied, making it easier to substitute
+alternative implementations.
