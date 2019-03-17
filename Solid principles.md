@@ -1,4 +1,8 @@
 
+## Solid Principles
+
+[Playlist](https://www.youtube.com/watch?v=HLFbeC78YlU&list=PL6n9fhu94yhXjG1w2blMXUzyDrZ_eyOme)
+
  ### Single Responsibility Principal
  
  * There should never be more than one reason for class change
