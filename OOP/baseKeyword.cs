@@ -21,8 +21,7 @@ public class SonClass : FatherClass
 	public SonClass() {}
 	
 	public SonClass(string name, int age, string favLanguage) :base(name, age) {
-	this.name = name;
-	this.age = age;
+//	name and age will come from base class, thus we don't need to write it
 	this.favLanguage = favLanguage;
 		
 	}
